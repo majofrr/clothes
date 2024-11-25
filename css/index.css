@@ -1,0 +1,139 @@
+body{
+
+background-color: #ededed;
+}
+
+.catalogo{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+
+
+.tarjetica {
+    width: 300px;
+    height: 465px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.tarjetica ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.star{
+    display: flex;
+}
+
+.star-y{
+    color: rgb(241, 241, 83);
+}
+
+.star-l{
+    color: lightslategray;
+}
+
+
+.boton-samba{
+    background-color: rgb(100,168,204);
+    color: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+}
+
+.boton-valen{
+    background-color: #b86467;
+    color: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+
+}
+
+.boton-long{
+    background-color: rgb(42,58,77);
+    color: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+    
+}
+
+.precio-l{
+  color: rgb(42,58,77);
+}
+
+.precio-v{
+color: #b86467;
+}
+.precio-s{
+   color: rgb(100,168,204);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boton-samba:hover{
+    background-color: rgb(143,158,165);
+}
+
+.boton-valen:hover{
+    background-color: #612633;
+
+}
+
+.boton-long:hover{
+    background-color: rgb(139,96,83);
+    
+}
+
+.precio-l:hover{
+  color: rgb(139,96,83);
+}
+
+.precio-v:hover{
+color: #612633;
+}
+.precio-s:hover{
+   color: rgb(143,158,165);
+}
+
